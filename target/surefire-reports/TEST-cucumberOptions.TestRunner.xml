@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="3.05" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="3.118" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire5244078253064376674\surefirebooter1769844760963359357.jar C:\Users\LENOVO\AppData\Local\Temp\surefire5244078253064376674 2024-07-02T22-57-38_577-jvmRun1 surefire6653143463691508353tmp surefire_017273261983527610521tmp"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire2744672384665353689\surefirebooter13957230042524162090.jar C:\Users\LENOVO\AppData\Local\Temp\surefire2744672384665353689 2024-07-03T00-11-42_001-jvmRun1 surefire5923283619390005021tmp surefire_01942176372622309363tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Personal Files\Testing Projects\CucumberLearningAutomation\target\test-classes;C:\Personal Files\Testing Projects\CucumberLearningAutomation\target\classes;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\LENOVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\LENOVO\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\LENOVO\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire5244078253064376674\surefirebooter1769844760963359357.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire2744672384665353689\surefirebooter13957230042524162090.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
@@ -58,13 +58,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Home Page Default content on Web" classname="Home Page" time="0.343"/>
-  <testcase name="GitHub account REST Service" classname="Home Page" time="0.023"/>
-  <testcase name="Home page default login" classname="Application Login" time="0.033"/>
-  <testcase name="Home page invalid user login" classname="Application Login" time="0.019"/>
-  <testcase name="Successful login with valid credentials #1" classname="Application login - Feature" time="0.026"/>
-  <testcase name="Successful login with valid credentials #2" classname="Application login - Feature" time="0.031"/>
-  <testcase name="Successful login with valid credentials #3" classname="Application login - Feature" time="0.034"/>
-  <testcase name="Successful login with valid credentials #4" classname="Application login - Feature" time="0.028"/>
-  <testcase name="User makes a successful payment with a valid credit card" classname="Make Payment" time="0.052"/>
+  <testcase name="Home Page Default content on Web" classname="Home Page" time="0.252"/>
+  <testcase name="GitHub account REST Service" classname="Home Page" time="0.032"/>
+  <testcase name="Home page default login" classname="Application Login" time="0.046"/>
+  <testcase name="Home page invalid user login" classname="Application Login" time="0.026"/>
+  <testcase name="Successful login with valid credentials #1" classname="Application login - Feature" time="0.042"/>
+  <testcase name="Successful login with valid credentials #2" classname="Application login - Feature" time="0.033"/>
+  <testcase name="Successful login with valid credentials #3" classname="Application login - Feature" time="0.039"/>
+  <testcase name="Successful login with valid credentials #4" classname="Application login - Feature" time="0.027"/>
+  <testcase name="User makes a successful payment with a valid credit card" classname="Make Payment" time="0.059"/>
 </testsuite>
