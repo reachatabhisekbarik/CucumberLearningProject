@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.943" tests="9" skipped="0" failures="0" errors="0">
+<testcase classname="Home Page" name="Home Page Default content on Web" time="0.041">
+<system-out><![CDATA[
+Given user is on Application home page......................................passed
+Then user gets a GitHub Bootcamp section....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page" name="GitHub account REST Service" time="0.004">
+<system-out><![CDATA[
+Given user is on Application home page......................................passed
+When user sends a GET request...............................................passed
+Then user sends a GET request to aut........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login" time="0.008">
+<system-out><![CDATA[
+Given User is on net banking landing page...................................passed
+When User login into application with username "usr123" and password "test123".passed
+Then Home page is displayed.................................................passed
+And Cards are "true"........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page invalid user login" time="0.003">
+<system-out><![CDATA[
+Given User is on net banking landing page...................................passed
+When User login into application with username "usr321" and password "test321".passed
+Then Home page is displayed.................................................passed
+And Cards are "false".......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login - Feature" name="Successful login with valid credentials - #1.1" time="0.013">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started or not.....................................passed
+Given the user is on the login page.........................................passed
+When the user enters username "user1" and password "password123"............passed
+And clicks the login button.................................................passed
+Then the user should be redirected to the dashboard.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login - Feature" name="Successful login with valid credentials - #1.2" time="0.014">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started or not.....................................passed
+Given the user is on the login page.........................................passed
+When the user enters username "user2" and password "password456"............passed
+And clicks the login button.................................................passed
+Then the user should be redirected to the dashboard.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login - Feature" name="Successful login with valid credentials - #1.3" time="0.019">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started or not.....................................passed
+Given the user is on the login page.........................................passed
+When the user enters username "user3" and password "password789"............passed
+And clicks the login button.................................................passed
+Then the user should be redirected to the dashboard.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application login - Feature" name="Successful login with valid credentials" time="0.015">
+<system-out><![CDATA[
+Given Validate the browser..................................................passed
+When Browser is triggered...................................................passed
+Then Check if browser is started or not.....................................passed
+Given the user is on dashboard page.........................................passed
+When clicks on logout button................................................passed
+Then the user should be redirected to the login page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Make Payment" name="User makes a successful payment with a valid credit card" time="0.022">
+<system-out><![CDATA[
+Given the user is logged into their account.................................passed
+When the user navigates to the "Make Payment" page..........................passed
+And the user enters a valid credit card number..............................passed
+And the user enters the expiration date.....................................passed
+And the user enters the CVV code............................................passed
+And the user enters a valid payment amount..................................passed
+And the user clicks "Pay"...................................................passed
+Then the user should see a confirmation message stating the payment was successful.passed
+And the user's account balance should reflect the payment...................passed
+]]></system-out>
+</testcase>
+</testsuite>
